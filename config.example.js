@@ -28,7 +28,7 @@ var CONFIG = {
    groupsAlign: GROUP_ALIGNS.HORIZONTALLY, // HORIZONTALLY, VERTICALLY, GRID
    onReady: function () {},
 
-   header: { // https://github.com/resoai/TileBoard/wiki/Header-configuration
+   header: { // https://github.com/FinnSWD/UI-Change-Test/wiki/Header-configuration
       styles: {
          margin: '30px 130px 0',
          fontSize: '28px'
@@ -106,7 +106,7 @@ var CONFIG = {
       ]
    },
 
-   /*screensaver: {// optional. https://github.com/resoai/TileBoard/wiki/Screensaver-configuration
+   /*screensaver: {// optional. https://github.com/FinnSWD/UI-Change-Test/wiki/Screensaver-configuration
       timeout: 300, // after 5 mins of inactive
       slidesTimeout: 10, // 10s for one slide
       styles: { fontSize: '40px' },
@@ -163,7 +163,7 @@ var CONFIG = {
                      width: 1,
                      type: TYPES.SENSOR,
                      id: 'binary_sensor.updater',
-                     state: '@attributes.release_notes' // https://github.com/resoai/TileBoard/wiki/Templates
+                     state: '@attributes.release_notes' // https://github.com/FinnSWD/UI-Change-Test/wiki/Templates
                   },
                   {
                      title: 'Heating',
@@ -266,7 +266,7 @@ var CONFIG = {
                      //classes: ['-compact'],
                      type: TYPES.WEATHER,
                      id: {},
-                     state: function () {return 'Clear, night'}, // https://github.com/resoai/TileBoard/wiki/Anonymous-functions
+                     state: function () {return 'Clear, night'}, // https://github.com/FinnSWD/UI-Change-Test/wiki/Anonymous-functions
                      icon: 'clear-night',
                      icons: {
                         'clear-day': 'clear',
