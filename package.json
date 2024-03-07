@@ -31,12 +31,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/resoai/TileBoard.git"
+    "url": "git+https://github.com/FinnSWD/UI-Change-Test.git"
   },
   "author": "Alexey",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/resoai/TileBoard/issues"
+    "url": "https://github.com/FinnSWD/UI-Change-Test/issues"
   },
   "homepage": "https://github.com/resoai/TileBoard#readme",
   "devDependencies": {
